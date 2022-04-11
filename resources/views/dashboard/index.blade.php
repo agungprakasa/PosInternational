@@ -49,7 +49,9 @@
                                     <h5 class="font-size-16">Event One</h5>
                                     <p class="text-muted">It will be as simple as occidental in fact it will be Occidental Cambridge friend</p>
                                     <div>
-                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                            Read more
+                                        </button>
                                     </div>
                                 </div>
                             </li>
@@ -59,7 +61,9 @@
                                     <h5 class="font-size-16">Event Two</h5>
                                     <p class="text-muted">Everyone realizes why a new common language one could refuse translators.</p>
                                     <div>
-                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                            Read more
+                                        </button>
                                     </div>
                                 </div>
                             </li>
@@ -69,7 +73,9 @@
                                     <h5 class="font-size-16">Event Three</h5>
                                     <p class="text-muted">If several languages coalesce the grammar of the resulting simple and regular</p>
                                     <div>
-                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                            Read more
+                                        </button>
                                     </div>
                                 </div>
                             </li>
@@ -79,7 +85,9 @@
                                     <h5 class="font-size-16">Event Four</h5>
                                     <p class="text-muted">Languages only differ in their pronunciation and their most common words.</p>
                                     <div>
-                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                            Read more
+                                        </button>
                                     </div>
                                 </div>
                             </li>
@@ -89,7 +97,9 @@
                                   <h5 class="font-size-16">Event Five</h5>
                                   <p class="text-muted">Languages only differ in their pronunciation and their most common words.</p>
                                   <div>
-                                      <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                                        Read more
+                                    </button>
                                   </div>
                               </div>
                           </li>
@@ -100,6 +110,26 @@
             <!-- end card -->
         </div>
     
+<!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
     
     
     <style type="text/css">
