@@ -33,89 +33,141 @@
       </form>
     </div>
   </div>
-
-<div class="row">
-    <div class="col-md-12">
-      <!-- The time line -->
-      <div class="timeline">
-        <!-- timeline time label -->
-        <div class="time-label">
-          <span class="bg-red">10 Feb. 2014</span>
-        </div>
-        <!-- /.timeline-label -->
-        <!-- timeline item -->
-        <div>
-          <i class="fas fa-envelope bg-blue"></i>
-          <div class="timeline-item">
-            <span class="time"><i class="fas fa-clock"></i> 12:05</span>
-            <h3 class="timeline-header"><a href="#">Support Team</a> sent you an email</h3>
-
-            <div class="timeline-body">
-              Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
-              weebly ning heekya handango imeem plugg dopplr jibjab, movity
-              jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
-              quora plaxo ideeli hulu weebly balihoo...
+<br>
+  <body>
+    
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title mb-5">Timeline</h4>
+    
+                    <div class="hori-timeline" dir="ltr">
+                        <ul class="list-inline events">
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                    <div class="event-date bg-soft-primary text-primary">2 June</div>
+                                    <h5 class="font-size-16">Event One</h5>
+                                    <p class="text-muted">It will be as simple as occidental in fact it will be Occidental Cambridge friend</p>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                    <div class="event-date bg-soft-success text-success">5 June</div>
+                                    <h5 class="font-size-16">Event Two</h5>
+                                    <p class="text-muted">Everyone realizes why a new common language one could refuse translators.</p>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                    <div class="event-date bg-soft-danger text-danger">7 June</div>
+                                    <h5 class="font-size-16">Event Three</h5>
+                                    <p class="text-muted">If several languages coalesce the grammar of the resulting simple and regular</p>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-inline-item event-list">
+                                <div class="px-4">
+                                    <div class="event-date bg-soft-warning text-warning">8 June</div>
+                                    <h5 class="font-size-16">Event Four</h5>
+                                    <p class="text-muted">Languages only differ in their pronunciation and their most common words.</p>
+                                    <div>
+                                        <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="timeline-footer">
-              <a class="btn btn-primary btn-sm">Read more</a>
-              <a class="btn btn-danger btn-sm">Delete</a>
-            </div>
-          </div>
+            <!-- end card -->
         </div>
-        <!-- END timeline item -->
-        <!-- timeline item -->
-        <div>
-          <i class="fas fa-user bg-green"></i>
-          <div class="timeline-item">
-            <span class="time"><i class="fas fa-clock"></i> 5 mins ago</span>
-            <h3 class="timeline-header no-border"><a href="#">Sarah Young</a> accepted your friend request</h3>
-          </div>
-        </div>
-        <!-- END timeline item -->
-        <!-- timeline item -->
-        <div>
-          <i class="fas fa-comments bg-yellow"></i>
-          <div class="timeline-item">
-            <span class="time"><i class="fas fa-clock"></i> 27 mins ago</span>
-            <h3 class="timeline-header"><a href="#">Jay White</a> commented on your post</h3>
-            <div class="timeline-body">
-              Take me to your leader!
-              Switzerland is small and neutral!
-              We are more like Germany, ambitious and misunderstood!
-            </div>
-            <div class="timeline-footer">
-              <a class="btn btn-warning btn-sm">View comment</a>
-            </div>
-          </div>
-        </div>
-        <!-- END timeline item -->
-        <!-- timeline time label -->
-        <div class="time-label">
-          <span class="bg-green">3 Jan. 2014</span>
-        </div>
-        <!-- /.timeline-label -->
-        <!-- timeline item -->
-        <div>
-          <i class="fa fa-camera bg-purple"></i>
-          <div class="timeline-item">
-            <span class="time"><i class="fas fa-clock"></i> 2 days ago</span>
-            <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
-            <div class="timeline-body">
-              <img src="https://placehold.it/150x100" alt="...">
-              <img src="https://placehold.it/150x100" alt="...">
-              <img src="https://placehold.it/150x100" alt="...">
-              <img src="https://placehold.it/150x100" alt="...">
-              <img src="https://placehold.it/150x100" alt="...">
-            </div>
-          </div>
-        </div>
-        <!-- END timeline item -->
-        <div>
-          <i class="fas fa-clock bg-gray"></i>
-        </div>
-      </div>
-    </div>
-    <!-- /.col -->
-</div>
+    
+    
+    
+    <style type="text/css">
+    body{
+        background:#eee;
+        margin-top:20px;
+    }
+    .hori-timeline .events {
+        border-top: 3px solid #e9ecef;
+    }
+    .hori-timeline .events .event-list {
+        display: block;
+        position: relative;
+        text-align: center;
+        padding-top: 70px;
+        margin-right: 0;
+    }
+    .hori-timeline .events .event-list:before {
+        content: "";
+        position: absolute;
+        height: 36px;
+        border-right: 2px dashed #dee2e6;
+        top: 0;
+    }
+    .hori-timeline .events .event-list .event-date {
+        position: absolute;
+        top: 38px;
+        left: 0;
+        right: 0;
+        width: 75px;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 2px 4px;
+    }
+    @media (min-width: 1140px) {
+        .hori-timeline .events .event-list {
+            display: inline-block;
+            width: 20%;
+            padding-top: 45px;
+        }
+        .hori-timeline .events .event-list .event-date {
+            top: -12px;
+        }
+    }
+    .bg-soft-primary {
+        background-color: rgba(64,144,203,.3)!important;
+    }
+    .bg-soft-success {
+        background-color: rgba(71,189,154,.3)!important;
+    }
+    .bg-soft-danger {
+        background-color: rgba(231,76,94,.3)!important;
+    }
+    .bg-soft-warning {
+        background-color: rgba(249,213,112,.3)!important;
+    }
+    .card {
+        border: none;
+        margin-bottom: 24px;
+        -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+        box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </style>
+    
+    <script type="text/javascript">
+    
+    </script>
+    </body>
 
 @endsection
