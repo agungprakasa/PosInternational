@@ -131,8 +131,8 @@
           <i class="fas fa-th-large"></i>
         </a>
       </li>
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a href="#" class="nav-link">Logout</a>
-      </li>
+      </li> --}}
     </ul>
 </nav>
