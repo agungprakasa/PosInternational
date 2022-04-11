@@ -15,7 +15,15 @@ return new class extends Migration
     {
         Schema::create('tracking', function (Blueprint $table) {
             $table->id();
-            
+            $table->string('barcode');
+            $table->string('negara_posisi_barang');
+            $table->string('nama_kantor');
+            $table->string('berat_barang');
+            $table->string('kategori_barang');
+            $table->string('harga_barang');
+            $table->string('invoice')->nullable();
+            $table->string('layanan');
+            $table->string('biaya_kirim');
             $table->timestamps();
         });
     }
