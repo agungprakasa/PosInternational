@@ -22,7 +22,7 @@
     <div class="col-md-8 offset-md-2">
       <form action="simple-results.html">
         <div class="input-group">
-          <input type="search" class="form-control form-control-lg" placeholder="Type your keywords here">
+          <input type="search" class="form-control form-control-lg" placeholder="Lacak kiriman Anda...">
             <div class="input-group-append">
               <button type="submit" class="btn btn-lg btn-default">
                 <i class="fa fa-search"></i>
@@ -83,6 +83,16 @@
                                     </div>
                                 </div>
                             </li>
+                            <li class="list-inline-item event-list">
+                              <div class="px-4">
+                                  <div class="event-date bg-soft-null text-null">9 June</div>
+                                  <h5 class="font-size-16">Event Five</h5>
+                                  <p class="text-muted">Languages only differ in their pronunciation and their most common words.</p>
+                                  <div>
+                                      <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                  </div>
+                              </div>
+                          </li>
                         </ul>
                     </div>
                 </div>
@@ -127,7 +137,7 @@
     @media (min-width: 1140px) {
         .hori-timeline .events .event-list {
             display: inline-block;
-            width: 20%;
+            width: 18%;
             padding-top: 45px;
         }
         .hori-timeline .events .event-list .event-date {
@@ -145,6 +155,9 @@
     }
     .bg-soft-warning {
         background-color: rgba(249,213,112,.3)!important;
+    }
+    .bg-soft-null {
+        background-color: rgba(56, 56, 56, 0.3)!important;
     }
     .card {
         border: none;

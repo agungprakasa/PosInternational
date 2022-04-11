@@ -5,24 +5,24 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="/" class="nav-link">Dashboard</a>
+        <a href="/" class="nav-link">Home</a>
       </li>
     </ul>
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
       @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                
                     @guest
                             @if (Route::has('login'))
                                 <li class="nav-link d-none d-sm-inline-block">
-                                    <a class="text-sm text-gray-700 dark:text-gray-500 underline" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="text-md text-gray-700 dark:text-gray-500 underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-link d-none d-sm-inline-block">
-                                    <a class="text-sm text-gray-700 dark:text-gray-500 underline" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="text-md text-gray-700 dark:text-gray-500 underline" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
                         @else
@@ -32,7 +32,7 @@
                                 </a> --}}
 
                                 {{-- <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"> --}}
-                                    <a class="text-sm text-gray-700 dark:text-gray-500 underline" href="{{ route('logout') }}"
+                                    <a class="text-md text-gray-700 dark:text-gray-500 underline" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
@@ -44,7 +44,7 @@
                                 {{-- </div> --}}
                             {{-- </li> --}}
                     @endguest
-                </div>
+                
       @endif
       <!-- Navbar Search -->
       {{-- <li class="nav-item">
@@ -168,3 +168,10 @@
       </li> --}}
     </ul>
 </nav>
+
+<style>
+  /* nav-auth:hover
+  {
+    background-color: lightgray;
+  } */
+</style>
